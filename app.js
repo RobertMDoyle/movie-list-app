@@ -29,7 +29,7 @@ class UI {
             <td>${movie.title}</td >
             <td>${movie.genre}</td>
             <td>${movie.certification}</td>
-            <td><a href="#" class="btn btn-danger btn-sm"><i class="far fa-trash-alt delete"></i></a></td>  
+            <td><a href="#"><i class="far fa-trash-alt delete"></i></a></td>  
         `;
 
         list.appendChild(row);
