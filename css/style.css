@@ -1,3 +1,12 @@
+body {
+    background-color: rgb(240, 232, 232);
+}
+
+#main-content {
+    margin-bottom: 150px
+}
+
+
 .logo {
     height: 100px;
 }
@@ -8,8 +17,16 @@
 }
 
 #main-footer p {
-    font-family: 'Special Elite', cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.2rem;
 
 
+}
+
+/* Media Queries */
+
+@media (max-width: 767px) {
+    .logo {
+        margin-bottom: 30px;
+    }
 }
